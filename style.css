@@ -1,0 +1,363 @@
+:root{
+ 
+--color1:#b49383;
+}
+#pos1{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: Arial;
+}
+.para1{
+    font-family: "Stylish", serif;
+    line-height: 1rem;
+    font-weight: 100;
+    
+   
+    
+
+    
+}
+.para1:hover{
+    color:var(--color1) !important ;
+}
+
+.Resturant{
+
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    
+}
+a[class^="nav-link"]{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.hover:hover{
+color:var(--color1) !important; 
+}
+.but1{
+    background: none;
+   height: 3rem;
+   width: 17rem;
+    
+}
+.but1:hover{
+    background-color: white !important;
+    transition: 0.5s;
+    color: black !important;
+}
+.mainsection{
+    height: 90vh;
+    background-image:url(img/image1.webp) ;
+    background-size:100% 100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 4rem;
+    
+   
+}
+/* slider */
+  ::-webkit-scrollbar {
+    width: 15px;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color1); 
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background:rgb(206, 136, 206); 
+  }  
+  /* Responsive */
+   @media (max-width: 300px){
+    .mainsection{
+    background-size: cover;
+    background-position:center;
+    
+    
+  
+    }
+    .head1{
+      font-size: 2rem !important;
+    }
+    .head2{
+      font-size: 2rem !important;
+      padding-top: 10rem !important;
+    }
+    #para3{
+      font-size: 1.1rem!important;
+    }
+
+
+   }
+  @media (min-width: 300px) and ( max-width: 768px){
+    .mainsection{
+      background-size: cover;
+      background-position:center;
+      position: relative;
+        top: 3rem;
+      }
+      .head2{
+         font-size: 3rem !important;
+        }
+    .head1{
+font-size: 2rem !important;
+    }
+   .secondmain{
+    position: relative !important;
+    top: 3rem !important;
+    display: flex;
+    flex-direction: row-reverse column !important;
+    
+   } 
+   .pic1{
+    position: absolute !important;
+    right:  1rem!important;
+    top: 32rem !important;
+    width: 90% !important;
+    display:  block !important;
+     
+     height: 70vh !important;
+     border: 1px black solid;
+    
+    
+    
+   }
+   .pic2{
+    
+      position: absolute !important;
+      right:  1rem!important;
+      top: 64rem !important;
+      width: 90% !important;
+      display:  block !important;
+       
+       height: 70vh !important;
+       border: 1px black solid;
+      
+      
+      
+     
+   }
+   .leftdiv{
+    position: absolute !important;
+    left: 1.2rem !important;
+    top: 4rem;
+   
+    width: 90% !important;
+    height: 60vh !important;
+    
+   }
+   .para10{
+    font-size: 0.8rem !important;
+   }
+   .secondmain{
+    height: 238vh !important;
+   }
+   iframe{
+    width: 100% !important;
+    height: 95vh;
+    
+   }
+   .thirdmain{
+    width: 100%;
+    height: 96vh;
+    object-fit: cover !important;
+    
+   }
+
+    
+ 
+} 
+
+  
+  @media (min-width:767px) and (max-width: 1024px){
+    .mainsection{
+        background-size: cover;
+        background-position:center;
+
+        position: relative;
+        top: 3.93rem;
+      
+        }
+        .head1{
+          font-size: 3rem !important;
+        }
+        .head2{
+          font-size: 4.5rem !important;
+        }
+        #para3{
+          font-size: 2rem!important;
+        }
+        .leftdiv{
+          position: absolute !important;
+          left: 3rem !important;
+          top: 4rem;
+         
+          width: 90% !important;
+          height: 60vh !important;
+          
+         }
+         .pic1{
+          position: absolute !important;
+          right:  2rem!important;
+          top: 55rem !important;
+          width: 90% !important;
+          display:  block !important;
+           
+           height: 70vh !important;
+           border: 1px black solid;
+          
+          
+          
+         }
+         .pic2{
+    
+          position: absolute !important;
+          right:  1.4rem!important;
+          top: 113rem !important;
+          width: 90% !important;
+          display:  block !important;
+           
+           height: 70vh !important;
+           border: 1px black solid;
+          
+          
+          
+         
+       }
+       .secondmain{
+        height: 235vh !important;
+       }
+       .para5{
+        font-size: 3rem;
+       }
+       #para20{
+        font-size: 3rem !important;
+       }
+.para10{
+  font-size: 2rem !important;
+}
+iframe{
+  width: 100% !important;
+  height: 95vh;
+  
+ }
+ .thirdmain{
+  width: 100%;
+  height: 96vh;
+  object-fit: cover !important;
+  
+ }
+  }
+   .head2{
+      
+    color: var(--color1);
+    font-family: "Agbalumo", system-ui;
+    
+    font-size: 4.5rem;
+    
+} 
+   .head1{
+     font-size: 4rem; 
+     line-height: 3rem; 
+}     
+.secondmain{
+  height: 110vh;
+  display: flex;
+  align-items: center !important;
+  position: relative;
+  top: 4rem;
+
+  
+}
+.pic1{
+  height: 85vh;
+  width: 25vw;
+  background-image:url('img/intro_1.jpg.webp');
+  background-size: cover;
+  margin-left: 7rem !important;
+}
+.pic2{
+  height: 85vh;
+  width: 25vw;
+  background-image:url(img/intro_2.jpg.webp);
+  background-size: cover;
+}
+.leftdiv{
+  height: 60vh;
+  width: 40vw;
+  
+  position: absolute;
+  left: 47rem;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid var(--color1);
+  
+  
+}
+
+.para5{
+  color: var(--color1);
+    font-family: "Agbalumo", system-ui;
+}
+iframe{
+  height: 95vh;
+  width: 100%;
+  
+}
+.thirdmain{
+  height: 96vh;
+  width: 100%;
+  
+}
+.fourthmain{
+  height: 100vh;
+  width: 100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box1{
+  height: 62vh;
+  width: 40vw;
+  
+  position: relative;
+  left: 5rem;
+  z-index: 1;
+  border: 2px solid var(--color1);
+
+}
+.box2{
+  height: 80vh;
+  width: 48vw;
+  background-image: url(img/pic.jpg);
+  background-size: 100% 100%;
+  position: relative;
+  right: 5rem;
+  
+
+}
+.checked {
+  color: orange;
+}
+.head10{
+  color: var(--color1);
+}
+
+
+
+
